@@ -2,7 +2,7 @@ Feature: Register Class
     Student wants to schedule a class
 
 Scenario Outline: Teacher can only schedule class during the week
-    Given the day "<day>"
+    Given the student wants to schedule a class on "<day>"
     When the student tries to confirm 
     Then the app should respond "<answer>"
 
